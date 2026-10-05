@@ -1,0 +1,17 @@
+[
+  {
+    "id": "INT-01",
+    "applicationId": "SYC-2025-0814",
+    "candidateName": "Aarav Sharma",
+    "candidateEmail": "aarav.sharma@abes.ac.in",
+    "department": "Technical & Web Engineering",
+    "date": "2026-10-07",
+    "time": "04:30 PM",
+    "mode": "In-Person (SYC Hub)",
+    "meetLinkOrRoom": "SYC Innovation Hub, Room 304, ABES Campus",
+    "interviewerName": "Arjun Rathore",
+    "notes": "Review repository architecture and discuss state management approaches.",
+    "status": "Scheduled",
+    "createdAt": "2026-10-04T19:18:32.029Z"
+  }
+]

@@ -1,0 +1,131 @@
+[
+  {
+    "id": "SYC-2025-1969",
+    "fullName": "Representation",
+    "email": "representation98@gmail.com",
+    "phone": "8700007651",
+    "rollNumber": "2503201000942",
+    "branch": "Computer Science & Engineering",
+    "year": "2nd Year",
+    "hostelStatus": "Day Scholar",
+    "primaryDepartment": "tech",
+    "secondaryDepartment": "none",
+    "skillLevel": "Intermediate",
+    "skills": [],
+    "taskDetails": {
+      "taskType": "Task 3: SYC Recruitment Webpage",
+      "githubUrl": "1",
+      "liveUrl": "1",
+      "figmaDriveUrl": "",
+      "videoDriveUrl": "",
+      "notes": ""
+    },
+    "whyJoin": "bgfbfddfhvksudbjkdbvjkdbjgkvb",
+    "mindfulPerspective": "1",
+    "initiativeIdea": "1",
+    "timeCommitment": "6-8 hours/week",
+    "status": "Under Review",
+    "submittedAt": "2026-10-05T07:10:20.547Z"
+  },
+  {
+    "id": "SYC-2025-8442",
+    "fullName": "Rohan Malhotra",
+    "email": "rohan.malhotra@abes.ac.in",
+    "phone": "+91 99887 76655",
+    "rollNumber": "2300320100122",
+    "branch": "Computer Science & Engineering",
+    "year": "1st Year",
+    "hostelStatus": "Day Scholar",
+    "primaryDepartment": "tech",
+    "secondaryDepartment": "design",
+    "skillLevel": "Intermediate",
+    "skills": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS"
+    ],
+    "taskDetails": {
+      "figmaDriveUrl": "",
+      "liveUrl": "https://syc-portal.vercel.app",
+      "taskType": "Task 3: SYC Recruitment Webpage",
+      "githubUrl": "https://github.com/rohan-tech/syc-portal",
+      "notes": "Implemented full responsive layout and luxury editorial styling.",
+      "videoDriveUrl": ""
+    },
+    "whyJoin": "Passionate about creating mindful technology solutions.",
+    "mindfulPerspective": "Yoga and meditation before intense study sessions.",
+    "initiativeIdea": "Mindful campus hackathon.",
+    "timeCommitment": "6-8 hours/week",
+    "status": "Interview Shortlisted",
+    "submittedAt": "2026-10-05T07:08:46.335Z",
+    "updatedAt": "2026-10-05T07:09:14.679Z"
+  },
+  {
+    "id": "SYC-2025-0814",
+    "fullName": "Aarav Sharma",
+    "email": "aarav.sharma@abes.ac.in",
+    "phone": "+91 98765 43210",
+    "rollNumber": "2200320100045",
+    "branch": "Computer Science & Engineering",
+    "year": "2nd Year",
+    "hostelStatus": "Day Scholar",
+    "primaryDepartment": "tech",
+    "secondaryDepartment": "design",
+    "skillLevel": "Advanced",
+    "skills": [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Node.js"
+    ],
+    "taskDetails": {
+      "taskType": "Task 3 — Technical",
+      "githubUrl": "https://github.com/aarav-dev/syc-web-experience-v2",
+      "liveUrl": "https://syc-experience-v2.vercel.app",
+      "figmaDriveUrl": "",
+      "videoDriveUrl": "",
+      "notes": "Updated responsive navigation and added complete backend API integration.",
+      "updatedAt": "2026-10-05T07:19:05.968Z"
+    },
+    "whyJoin": "I want to blend meditative discipline with clean engineering practices.",
+    "mindfulPerspective": "Morning pranayama helps me stay completely focused during 5-hour hackathons.",
+    "initiativeIdea": "Host a Mindful Code Sprint where participants take 5-minute breathing pauses between sprints.",
+    "timeCommitment": "8-10 hours/week",
+    "status": "Task Received",
+    "submittedAt": "2026-10-04T07:06:51.162Z",
+    "updatedAt": "2026-10-05T07:19:05.969Z"
+  },
+  {
+    "id": "SYC-2025-0922",
+    "fullName": "Sanya Kapoor",
+    "email": "sanya.kapoor@abes.ac.in",
+    "phone": "+91 98111 22334",
+    "rollNumber": "2300320130089",
+    "branch": "Information Technology",
+    "year": "1st Year",
+    "hostelStatus": "Hosteler",
+    "primaryDepartment": "design",
+    "secondaryDepartment": "video",
+    "skillLevel": "Intermediate",
+    "skills": [
+      "Figma",
+      "Illustrator",
+      "Photoshop",
+      "Editorial Layouts"
+    ],
+    "taskDetails": {
+      "taskType": "Task 1 — Graphic Design",
+      "githubUrl": "",
+      "liveUrl": "",
+      "figmaDriveUrl": "https://drive.google.com/drive/folders/sample-syc-wellness-week",
+      "videoDriveUrl": "",
+      "notes": "Created 1080x1080 Post and 1080x1920 Story for 'SYC Wellness Week' with strict text-only SYC branding."
+    },
+    "whyJoin": "SYC offers the most thoughtful aesthetic and creative freedom on campus.",
+    "mindfulPerspective": "Designing with intention rather than rushing creates lasting visual impact.",
+    "initiativeIdea": "Curate a printed physical zine on campus wellness and creative mindfulness.",
+    "timeCommitment": "6-8 hours/week",
+    "status": "Under Review",
+    "submittedAt": "2026-10-04T19:06:51.162Z"
+  }
+]

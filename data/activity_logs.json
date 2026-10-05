@@ -1,0 +1,17 @@
+[
+  {
+    "id": "LOG-1791184745973-383",
+    "applicationId": "SYC-2025-0814",
+    "actor": "Aarav Sharma",
+    "action": "TASK_LINKS_UPDATED",
+    "details": "Applicant updated their task submission links prior to deadline.",
+    "timestamp": "2026-10-05T07:19:05.974Z"
+  },
+  {
+    "id": "LOG-INIT",
+    "actor": "System",
+    "action": "DATABASE_INITIALIZED",
+    "details": "Recruitment database initialized with seed records",
+    "timestamp": "2026-10-05T07:18:32.034Z"
+  }
+]

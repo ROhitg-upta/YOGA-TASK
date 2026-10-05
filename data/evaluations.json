@@ -1,0 +1,26 @@
+[
+  {
+    "id": "EV-01",
+    "applicationId": "SYC-2025-0814",
+    "reviewerName": "Arjun Rathore (Tech Lead)",
+    "technicalScore": 9,
+    "creativeScore": 8,
+    "culturalFitScore": 10,
+    "overallScore": 9,
+    "comments": "Exceptional code quality. Clean Next.js components and responsive layout. Highly aligned with SYC mindful ethos.",
+    "recommendation": "Strong Accept",
+    "createdAt": "2026-10-04T13:18:32.029Z"
+  },
+  {
+    "id": "EV-02",
+    "applicationId": "SYC-2025-1048",
+    "reviewerName": "Rhea Mukherjee (Media Lead)",
+    "technicalScore": 9,
+    "creativeScore": 10,
+    "culturalFitScore": 9,
+    "overallScore": 9.3,
+    "comments": "Brilliant color grading and tempo. The text branding compliance (no official logos) was strictly honored.",
+    "recommendation": "Strong Accept",
+    "createdAt": "2026-10-04T11:18:32.029Z"
+  }
+]
