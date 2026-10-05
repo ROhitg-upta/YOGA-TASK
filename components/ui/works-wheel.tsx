@@ -82,7 +82,7 @@ function place(
 
 export function WorksWheel({
   items,
-  label = "Why SYC // '25",
+  label = "Why SYC // '26",
   action = "Explore & Apply",
   enableScroll = true,
   globalScroll = true,

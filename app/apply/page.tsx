@@ -344,7 +344,7 @@ function ApplyFormContent() {
               SYC
             </span>
             <span className="text-[11px] uppercase tracking-widest text-[#787670] font-semibold pl-2 border-l border-[#E8E4DC]">
-              Recruitment 2024–25
+              Recruitment 2026–27
             </span>
           </div>
 

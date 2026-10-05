@@ -175,7 +175,7 @@ const SYC_PILLARS: WorksWheelItem[] = [
       "Permanent inclusion in the SYC Alumni Honor Registry"
     ],
     skills: ["Verified Leadership", "Recommendation Letters", "Society Credentials", "Alumni Status"],
-    deliverable: "Official SYC Leadership Certificate & Advisor Recommendation Letter for Cohort 2024–25.",
+    deliverable: "Official SYC Leadership Certificate & Advisor Recommendation Letter for Cohort 2026–27.",
   },
 ];
 
@@ -416,7 +416,7 @@ export default function ExperiencePage() {
             {/* WorksWheel with enableScroll={true}, globalScroll={true} and two-way sync */}
             <WorksWheel
               items={SYC_PILLARS}
-              label="Why SYC // '25"
+              label="Why SYC // '26"
               action="Apply for Domain"
               enableScroll={true}
               globalScroll={true}
@@ -440,7 +440,7 @@ export default function ExperiencePage() {
 
       {/* 3. LUXURY FOOTER TICKER & STATUS */}
       <footer className="w-full px-6 sm:px-10 py-4 border-t border-[#E8E4DC] bg-white text-xs text-[#787670] flex flex-col sm:flex-row items-center justify-between gap-3">
-        <p>© 2024–25 Student Yogic Club (SYC). 3D Spatial Drum Experience.</p>
+        <p>© 2026–27 Student Yogic Club (SYC). 3D Spatial Drum Experience.</p>
         <div className="flex items-center gap-4">
           <span className="text-[#2D4A3E] font-semibold">
             Task Submission Deadline: Wednesday 11:59 PM

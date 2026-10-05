@@ -194,7 +194,7 @@ export default function StatusTrackingPage() {
             Track Application Status
           </h1>
           <p className="text-sm text-[#52504A] max-w-md mx-auto">
-            Enter your unique Application ID (e.g. <code>SYC-2025-XXXX</code>) or registered College Email to check your progress.
+            Enter your unique Application ID (e.g. <code>SYC-2026-XXXX</code>) or registered College Email to check your progress.
           </p>
         </div>
 
@@ -203,7 +203,7 @@ export default function StatusTrackingPage() {
           <div className="relative flex items-center">
             <input
               type="text"
-              placeholder="e.g. SYC-2025-0814 or your.email@abes.ac.in"
+              placeholder="e.g. SYC-2026-0814 or your.email@abes.ac.in"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               className="w-full pl-5 pr-28 py-3.5 rounded-full bg-white border border-[#E8E4DC] text-sm text-[#1C1D1A] placeholder:text-[#A6A298] shadow-sm focus:outline-none focus:border-[#2D4A3E] focus:ring-2 focus:ring-[#2D4A3E]/20 transition-all"
@@ -497,17 +497,17 @@ export default function StatusTrackingPage() {
           <div className="flex flex-wrap items-center justify-center gap-2 pt-1 font-mono">
             <button
               type="button"
-              onClick={() => { setQuery("SYC-2025-0814"); }}
+              onClick={() => { setQuery("SYC-2026-0814"); }}
               className="px-2.5 py-1 rounded-lg bg-white border border-[#E8E4DC] hover:border-[#2D4A3E] text-[#1C1D1A] transition-colors"
             >
-              SYC-2025-0814 (Tech • Scheduled)
+              SYC-2026-0814 (Tech • Scheduled)
             </button>
             <button
               type="button"
-              onClick={() => { setQuery("SYC-2025-0922"); }}
+              onClick={() => { setQuery("SYC-2026-0922"); }}
               className="px-2.5 py-1 rounded-lg bg-white border border-[#E8E4DC] hover:border-[#2D4A3E] text-[#1C1D1A] transition-colors"
             >
-              SYC-2025-0922 (Design • Under Review)
+              SYC-2026-0922 (Design • Under Review)
             </button>
           </div>
         </div>

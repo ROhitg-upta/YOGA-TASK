@@ -21,7 +21,7 @@ import {
 
 function SuccessContent() {
   const searchParams = useSearchParams();
-  const id = searchParams.get("id") || "SYC-2025-XXXX";
+  const id = searchParams.get("id") || "SYC-2026-XXXX";
 
   const [copied, setCopied] = useState(false);
   const [appData, setAppData] = useState<any>(null);
@@ -168,7 +168,7 @@ function SuccessContent() {
                 <p className="text-sm font-bold text-[#2D4A3E] uppercase tracking-wide">
                   {appData?.primaryDepartment || "Tech & Design"}
                 </p>
-                <p className="text-[#52504A] text-xs">{appData?.year || "Cohort 2024-25"}</p>
+                <p className="text-[#52504A] text-xs">{appData?.year || "Cohort 2026–27"}</p>
               </div>
 
               <div>

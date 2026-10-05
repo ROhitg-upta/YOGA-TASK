@@ -4272,7 +4272,7 @@ function App() {
       <div className="hero-copy">
         <div style={{display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '6px 14px', borderRadius: '9999px', background: '#ecfdf5', border: '1px solid #a7f3d0', color: '#065f46', fontSize: '12px', fontWeight: 600, marginBottom: '18px', width: 'fit-content'}}>
           <span style={{width: '7px', height: '7px', borderRadius: '50%', background: '#10b981'}} />
-          <span>SYC Recruitment 2024-25 • Mindful 3D Experience</span>
+          <span>SYC Recruitment 2026–27 • Mindful 3D Experience</span>
         </div>
         <p className="eyebrow">Mindfulness • Innovation • Leadership</p>
         <h1 id="hero-title">Balance Mind.<br />Elevate Craft.<br /><em>With SYC.</em></h1>

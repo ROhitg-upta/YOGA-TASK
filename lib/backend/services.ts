@@ -19,9 +19,9 @@ export class ApplicationService {
   public static async create(rawData: any): Promise<ApplicationRecord> {
     const validated = applicationCreateSchema.parse(rawData);
 
-    // Generate unique readable candidate ID (e.g. SYC-2025-XXXX)
+    // Generate unique readable candidate ID (e.g. SYC-2026-XXXX)
     const suffix = Math.floor(1000 + Math.random() * 9000);
-    const newId = `SYC-2025-${suffix}`;
+    const newId = `SYC-2026-${suffix}`;
 
     const newApp: ApplicationRecord = {
       id: newId,

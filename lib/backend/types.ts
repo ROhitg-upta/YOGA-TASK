@@ -19,7 +19,7 @@ export interface TaskDetails {
 }
 
 export interface ApplicationRecord {
-  id: string; // e.g. SYC-2025-0814
+  id: string; // e.g. SYC-2026-0814
   fullName: string;
   email: string;
   phone: string;

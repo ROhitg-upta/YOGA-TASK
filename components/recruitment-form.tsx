@@ -113,7 +113,7 @@ export default function RecruitmentForm() {
       <div className="mb-8">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-700 text-xs font-semibold mb-3">
           <Sparkles className="w-3.5 h-3.5" />
-          <span>Recruitment Cycle 2024-25</span>
+          <span>Recruitment Cycle 2026–27</span>
         </div>
         <h3 className="text-2xl md:text-3xl font-bold text-slate-900 tracking-tight">
           Join Team SYC

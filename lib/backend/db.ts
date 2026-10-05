@@ -43,11 +43,11 @@ function safeReadFile<T>(filePath: string, fallback: T): T {
 // Initial Seed Data to make the system rich and realistic out of the box
 const SEED_APPLICATIONS: ApplicationRecord[] = [
   {
-    id: "SYC-2025-0814",
+    id: "SYC-2026-0814",
     fullName: "Aarav Sharma",
     email: "aarav.sharma@abes.ac.in",
     phone: "+91 98765 43210",
-    rollNumber: "2200320100045",
+    rollNumber: "2400320100045",
     branch: "Computer Science & Engineering",
     year: "2nd Year",
     hostelStatus: "Day Scholar",
@@ -71,11 +71,11 @@ const SEED_APPLICATIONS: ApplicationRecord[] = [
     submittedAt: new Date(Date.now() - 3600000 * 36).toISOString(),
   },
   {
-    id: "SYC-2025-0922",
+    id: "SYC-2026-0922",
     fullName: "Sanya Kapoor",
     email: "sanya.kapoor@abes.ac.in",
     phone: "+91 98111 22334",
-    rollNumber: "2300320130089",
+    rollNumber: "2500320130089",
     branch: "Information Technology",
     year: "1st Year",
     hostelStatus: "Hosteler",
@@ -99,11 +99,11 @@ const SEED_APPLICATIONS: ApplicationRecord[] = [
     submittedAt: new Date(Date.now() - 3600000 * 24).toISOString(),
   },
   {
-    id: "SYC-2025-1048",
+    id: "SYC-2026-1048",
     fullName: "Kabir Mehta",
     email: "kabir.mehta@abes.ac.in",
     phone: "+91 97123 45678",
-    rollNumber: "2300320100210",
+    rollNumber: "2500320100210",
     branch: "Computer Science (AI & ML)",
     year: "1st Year",
     hostelStatus: "Day Scholar",
@@ -131,7 +131,7 @@ const SEED_APPLICATIONS: ApplicationRecord[] = [
 const SEED_EVALUATIONS: EvaluationRecord[] = [
   {
     id: "EV-01",
-    applicationId: "SYC-2025-0814",
+    applicationId: "SYC-2026-0814",
     reviewerName: "Arjun Rathore (Tech Lead)",
     technicalScore: 9,
     creativeScore: 8,
@@ -143,7 +143,7 @@ const SEED_EVALUATIONS: EvaluationRecord[] = [
   },
   {
     id: "EV-02",
-    applicationId: "SYC-2025-1048",
+    applicationId: "SYC-2026-1048",
     reviewerName: "Rhea Mukherjee (Media Lead)",
     technicalScore: 9,
     creativeScore: 10,
@@ -158,7 +158,7 @@ const SEED_EVALUATIONS: EvaluationRecord[] = [
 const SEED_INTERVIEWS: InterviewSlotRecord[] = [
   {
     id: "INT-01",
-    applicationId: "SYC-2025-0814",
+    applicationId: "SYC-2026-0814",
     candidateName: "Aarav Sharma",
     candidateEmail: "aarav.sharma@abes.ac.in",
     department: "Technical & Web Engineering",

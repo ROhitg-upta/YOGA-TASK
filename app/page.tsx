@@ -228,7 +228,7 @@ export default function EditorialLandingPage() {
   const [openFaq, setOpenFaq] = useState<number | null>(0);
   const faqs = [
     {
-      q: "Who is eligible to apply for SYC Recruitment 2024–25?",
+      q: "Who is eligible to apply for SYC Recruitment 2026–27?",
       a: "All 1st, 2nd, and 3rd-year students across all branches at ABES Engineering College are eligible to apply. No prior club membership is required. We evaluate based on your curiosity, enthusiasm, and completion of your domain's interview task."
     },
     {
@@ -514,7 +514,7 @@ export default function EditorialLandingPage() {
         <div className="relative z-10 flex justify-center mb-4">
           <div className="editorial-pill px-5 py-2 flex items-center gap-2 text-xs font-semibold text-white bg-white/10 backdrop-blur-md border border-white/20 shadow-xl">
             <Sparkles className="w-3.5 h-3.5 text-[#A8D5BA]" />
-            <span>Student Yogic Club • Tech & Design Recruitment Cohort 2024–25</span>
+            <span>Student Yogic Club • Tech & Design Recruitment Cohort 2026–27</span>
           </div>
         </div>
 
@@ -943,7 +943,7 @@ export default function EditorialLandingPage() {
               href="/apply"
               className="px-6 py-3.5 rounded-full bg-[#1C1D1A] hover:bg-[#2D4A3E] text-white text-xs font-semibold uppercase tracking-wider whitespace-nowrap transition-all shadow-md inline-flex items-center gap-2"
             >
-              <span>Apply for Cohort 2025</span>
+              <span>Apply for Cohort 2026–27</span>
               <ArrowRight className="w-3.5 h-3.5" />
             </Link>
           </div>
@@ -1234,14 +1234,14 @@ export default function EditorialLandingPage() {
             </p>
             <div className="pt-2">
               <span className="inline-block px-3 py-1 rounded-full bg-[#EAF2EC] text-[#2D4A3E] font-bold text-[11px]">
-                Cohort '25 Intake
+                Cohort &apos;26–&apos;27 Intake
               </span>
             </div>
           </div>
         </div>
 
         <div className="max-w-7xl mx-auto pt-10 mt-10 border-t border-[#E8E4DC] flex flex-col sm:flex-row items-center justify-between text-[11px] text-[#787670] gap-4">
-          <p>© 2024–25 Student Yogic Club (SYC). All rights reserved.</p>
+          <p>© 2026–27 Student Yogic Club (SYC). All rights reserved.</p>
           <p>Designed with mindful precision for the Tech & Design Recruitment Task.</p>
         </div>
       </footer>
