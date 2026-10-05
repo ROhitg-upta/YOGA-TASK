@@ -510,11 +510,14 @@ export default function EditorialLandingPage() {
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_0%,rgba(20,21,18,0.55)_100%)]" />
         </div>
 
-        {/* Top Eyebrow Tag */}
+        {/* Top Eyebrow Tag with High-Contrast Dark Backdrop */}
         <div className="relative z-10 flex justify-center mb-4">
-          <div className="editorial-pill px-5 py-2 flex items-center gap-2 text-xs font-semibold text-white bg-white/10 backdrop-blur-md border border-white/20 shadow-xl">
-            <Sparkles className="w-3.5 h-3.5 text-[#A8D5BA]" />
-            <span>Student Yogic Club • Tech & Design Recruitment Cohort 2026–27</span>
+          <div className="px-5 py-2 rounded-full flex items-center gap-2.5 text-xs font-semibold text-white bg-[#141512]/92 border border-white/25 shadow-2xl backdrop-blur-xl ring-1 ring-white/10">
+            <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse shrink-0" />
+            <Sparkles className="w-3.5 h-3.5 text-emerald-300 shrink-0" />
+            <span className="tracking-wide">
+              Student Yogic Club <span className="text-white/40">•</span> Tech &amp; Design Recruitment <span className="text-emerald-300 font-bold">Cohort 2026–27</span>
+            </span>
           </div>
         </div>
 
