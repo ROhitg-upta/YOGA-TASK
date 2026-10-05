@@ -67,6 +67,16 @@ export default function AdminApplicationsPage() {
   const [scheduleSubmitting, setScheduleSubmitting] = useState(false);
   const [scheduleSuccess, setScheduleSuccess] = useState("");
 
+  const getWhatsAppUrl = (app: any, date: string, time: string, mode: string, loc: string) => {
+    if (!app?.phone) return "#";
+    const cleanPhone = app.phone.replace(/[^0-9]/g, "");
+    const phoneWithCountry = cleanPhone.length === 10 ? `91${cleanPhone}` : cleanPhone;
+    const message = encodeURIComponent(
+      `Hello ${app.fullName}! 👋\n\nCongratulations on being shortlisted for the Student Yogic Club (SYC) Cohort 2026–27 personal interaction at ABES Engineering College!\n\n📅 Date: ${date}\n⏰ Time: ${time}\n📍 Mode/Venue: ${mode} (${loc})\n\nYou can track your status and download your calendar invite at:\nhttps://abes.ac.in/syc/status\n\nPlease arrive 5 minutes prior to your slot.\n\nWarm regards,\nSYC Tech & Design Committee`
+    );
+    return `https://wa.me/${phoneWithCountry}?text=${message}`;
+  };
+
   const fetchData = async () => {
     setLoading(true);
     try {
@@ -236,6 +246,14 @@ export default function AdminApplicationsPage() {
           </div>
 
           <div className="flex items-center gap-3">
+            <Link
+              href="/admin/analytics"
+              className="px-4 py-2 rounded-xl bg-white border border-[#E8E4DC] hover:border-[#2D4A3E] text-xs font-semibold text-[#1C1D1A] inline-flex items-center gap-1.5 transition-all shadow-sm"
+              title="View Visual Analytics & Recruitment Funnel"
+            >
+              <BarChart3 className="w-3.5 h-3.5 text-[#2D4A3E]" />
+              <span>Analytics</span>
+            </Link>
             <a
               href="/api/recruitment/export"
               download
@@ -604,6 +622,17 @@ export default function AdminApplicationsPage() {
                   <div className="flex items-center justify-between pt-4 border-t border-[#E8E4DC]">
                     <span className="text-xs font-semibold text-[#787670]">Fast Decision:</span>
                     <div className="flex items-center gap-2">
+                      {selectedApp.status === "Accepted" && (
+                        <Link
+                          href={`/credentials/${selectedApp.id}`}
+                          target="_blank"
+                          className="px-4 py-2 rounded-xl bg-purple-700 hover:bg-purple-800 text-white text-xs font-semibold transition-all inline-flex items-center gap-1.5 shadow-sm"
+                        >
+                          <Award className="w-3.5 h-3.5" />
+                          <span>View Credential</span>
+                          <ExternalLink className="w-3 h-3" />
+                        </Link>
+                      )}
                       <button
                         onClick={() => handleUpdateStatus(selectedApp.id, "Interview Shortlisted")}
                         className="px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-semibold transition-all"
@@ -771,7 +800,17 @@ export default function AdminApplicationsPage() {
                     />
                   </div>
 
-                  <div className="pt-2 flex justify-end">
+                  <div className="pt-3 border-t border-[#E8E4DC] flex items-center justify-between gap-3">
+                    <a
+                      href={getWhatsAppUrl(selectedApp, scheduleForm.date, scheduleForm.time, scheduleForm.mode, scheduleForm.meetLinkOrRoom)}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-semibold text-xs inline-flex items-center gap-1.5 shadow-sm transition-all"
+                      title="Open WhatsApp chat with pre-filled invitation text"
+                    >
+                      <MessageSquare className="w-3.5 h-3.5" />
+                      <span>Send WhatsApp Invite</span>
+                    </a>
                     <button
                       type="submit"
                       disabled={scheduleSubmitting}

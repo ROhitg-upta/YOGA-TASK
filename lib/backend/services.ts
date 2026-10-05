@@ -334,11 +334,15 @@ export class AnalyticsService {
     const apps = db.getApplications();
     const evals = db.getEvaluations();
     const interviews = db.getInterviewSlots();
+    const creds = db.getCredentials();
+    const logs = db.getActivityLogs();
 
     const byDepartment: Record<string, number> = {};
     const byYear: Record<string, number> = {};
     const byStatus: Record<string, number> = {};
     const bySkillLevel: Record<string, number> = {};
+    const byBranch: Record<string, number> = {};
+    const byHostel: Record<string, number> = {};
 
     apps.forEach(a => {
       const dept = a.primaryDepartment || (a as any).department || "tech";
@@ -352,6 +356,12 @@ export class AnalyticsService {
 
       const skl = a.skillLevel || "Intermediate";
       bySkillLevel[skl] = (bySkillLevel[skl] || 0) + 1;
+
+      const br = a.branch || "Computer Science";
+      byBranch[br] = (byBranch[br] || 0) + 1;
+
+      const hst = a.hostelStatus || "Day Scholar";
+      byHostel[hst] = (byHostel[hst] || 0) + 1;
     });
 
     let totalTech = 0;
@@ -374,8 +384,11 @@ export class AnalyticsService {
       byYear,
       byStatus,
       bySkillLevel,
+      byBranch,
+      byHostel,
       interviewsScheduled: interviews.length,
       evaluationsLogged: evals.length,
+      credentialsIssued: creds.length,
       averageScores: {
         technical: Number((totalTech / evalCount).toFixed(1)),
         creative: Number((totalCreative / evalCount).toFixed(1)),
@@ -383,6 +396,7 @@ export class AnalyticsService {
         overall: Number((totalOverall / evalCount).toFixed(1)),
       },
       recentSubmissions: apps.slice(0, 5),
+      activityLogs: logs.slice(0, 10),
     };
   }
 }

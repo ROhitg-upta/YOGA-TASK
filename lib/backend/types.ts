@@ -86,8 +86,11 @@ export interface AnalyticsMetrics {
   byYear: Record<string, number>;
   byStatus: Record<string, number>;
   bySkillLevel: Record<string, number>;
+  byBranch?: Record<string, number>;
+  byHostel?: Record<string, number>;
   interviewsScheduled: number;
   evaluationsLogged: number;
+  credentialsIssued?: number;
   averageScores: {
     technical: number;
     creative: number;
@@ -95,4 +98,18 @@ export interface AnalyticsMetrics {
     overall: number;
   };
   recentSubmissions: ApplicationRecord[];
+  activityLogs?: ActivityLogRecord[];
+}
+
+export interface CredentialRecord {
+  id: string; // e.g. SYC-CRED-2026-0814
+  applicationId: string;
+  candidateName: string;
+  rollNumber: string;
+  department: string;
+  cohort: string;
+  role: string;
+  certificateHash: string; // Cryptographic SHA-256 fingerprint
+  issueDate: string;
+  status: "Active" | "Revoked";
 }

@@ -1,5 +1,33 @@
 [
   {
+    "id": "SYC-2026-1048",
+    "fullName": "Kabir Mehta",
+    "email": "kabir.mehta@abes.ac.in",
+    "phone": "+91 97123 45678",
+    "rollNumber": "2500320100210",
+    "branch": "Computer Science (AI & ML)",
+    "year": "1st Year",
+    "hostelStatus": "Day Scholar",
+    "primaryDepartment": "video",
+    "secondaryDepartment": "tech",
+    "skillLevel": "Advanced",
+    "skills": ["Premiere Pro", "After Effects", "Sound Design", "DaVinci Resolve", "Color Grading"],
+    "taskDetails": {
+      "taskType": "Task 2: Promotional Reel (20–30s)",
+      "githubUrl": "",
+      "liveUrl": "",
+      "figmaDriveUrl": "",
+      "videoDriveUrl": "https://drive.google.com/file/d/sample-syc-promotional-reel",
+      "notes": "28-second dynamic reel with beat-synced cuts, typography text animations, and color grading."
+    },
+    "whyJoin": "Passionate about capturing the raw energy of collegiate wellness and tech.",
+    "mindfulPerspective": "Editing rhythm requires deep presence and active listening.",
+    "initiativeIdea": "Produce a mini-documentary series on campus innovators and their mental health.",
+    "timeCommitment": "6-8 hours/week",
+    "status": "Accepted",
+    "submittedAt": "2026-10-04T08:15:00.000Z"
+  },
+  {
     "id": "SYC-2026-1969",
     "fullName": "Representation",
     "email": "representation98@gmail.com",
